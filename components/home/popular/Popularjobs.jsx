@@ -43,7 +43,12 @@ const Popularjobs = () => {
         ) : (
           <FlatList
             data={data}
-            renderItem={({ item }) => <PopularJobCard item={item} />}
+            renderItem={({ item }) => (
+              <PopularJobCard
+                item={item}
+                handleCardPress={handleCardPress}
+              />
+            )}
             keyExtractor={(item) => item}
             contentContainerStyle={{ columnGap: SIZES.medium }}
             horizontal
