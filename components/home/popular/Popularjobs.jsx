@@ -49,7 +49,7 @@ const Popularjobs = () => {
                 handleCardPress={handleCardPress}
               />
             )}
-            keyExtractor={(item) => item}
+            keyExtractor={(item) => item.job_id.toString()}
             contentContainerStyle={{ columnGap: SIZES.medium }}
             horizontal
           />
