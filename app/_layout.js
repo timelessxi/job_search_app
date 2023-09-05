@@ -7,8 +7,8 @@ SplashScreen.preventAutoHideAsync();
 
 const Layout = () => {
   const [fontsLoaded] = useFonts({
-    DMBold: require("../assets/fonts/DMSans-Bold.ttf"),
-    DMMedium: require("../assets/fonts/DMSans-Medium.ttf"),
+    DMBold: require("../assets/fonts/BulletproofItalic.ttf"),
+    DMMedium: require("../assets/fonts/BulletproofItalic.ttf"),
     DMRegular: require("../assets/fonts/DMSans-Regular.ttf"),
   });
 
